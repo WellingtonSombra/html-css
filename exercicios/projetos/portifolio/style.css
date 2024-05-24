@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+body{
+    background-image: linear-gradient(to top, rgb(0, 1, 10) 60%, rgb(0, 0, 46));
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+.menu{
+    background-color: rgb(0, 1, 17);
+    margin: auto;
+    height: 11em;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px 10px 10px 10px;
+}
+.principal{
+    margin: 10px 10px 10px 10px;
+    color: aliceblue;
+    text-align: center;
+    font: normal 200 2em Oswald;
+}
+.abas{
+    color: white;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+.element{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.sobremim{
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+    color: white;
+}
+.sobremim:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+.redessociais{
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.redessociais:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+.preferencias{
+    background-color: rgba(0, 255, 0, 0);
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.preferencias:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+.certificados{
+    background-color: rgba(0, 255, 0, 0);
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.certificados:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+.projetos{
+    background-color: rgba(255, 0, 0, 0);
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.projetos:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+.div1{
+    display: flex;
+    gap: 20px;
+}
+.divp{
+    width: 60em;
+    height: 18em;
+}
+.img{
+    width: 50%;
+    border-radius: 50%;
+    align-items: center;
+    margin: 0px 0px 0px 18em;
+    width: auto;
+    height: 368px;
+}
+.nome{
+    color: aliceblue;
+    font: 100 1.5em oswald;
+    text-align: center;
+    margin-left: 100px;
+}
+.texto1{
+    color: aliceblue;
+    font: 200 1.2em Josefin sans;
+    text-align: center;
+    text-align: justify;
+    margin-left: 100px;
+}
+.div2{
+    background-color: rgba(0, 0, 255, 0);
+    width: 35em;
+    margin: auto;
+    display: grid;
+}
+.insta{
+    margin: 16px 87px 4px 9px;
+    height: 4em;
+    width: 4em;
+    background-color: rgba(255, 255, 255, 0);
+}
+.textinsta{
+    margin: -58px 10px 10px 76px;
+    font: 200 1.6em Roboto;       
+}
+.linke{
+    margin: 16px 87px 4px 9px;
+    height: 4em;
+    width: 4em;
+    background-color: rgba(255, 255, 255, 0);
+}
+.textlinke{
+    margin: -54px 10px 10px 76px;
+    font: 200 1.2em Roboto;
+}
+.x{
+    margin: 16px 87px 4px 9px;
+    height: 4em;
+    width: 4em;
+}
+.textx{
+    margin: -58px 10px 10px 76px;
+    font: 200 1.6em Roboto;
+}
+.social{
+    backdrop-filter: blur(20px);
+    width: 31em;
+    height: 43em;
+    border-radius: 50px;
+    margin: auto;
+    background-color: rgba(0, 0, 54, 0.418);
+}
+.killua{
+    height: 144px;
+    width: 144px;
+    margin: 10px 10px 10px 146px;
+    border-radius: 50%;
+}
+.japa{
+    display: flexbox;
+    margin: -153px 153px 17px 292px;
+    text-align: end;
+    color: #9273B6;
+    font: 200 2.5em Nanum Myeongjo;
+}
+.meuslinks{
+    margin: 0px 113px 0px 113px;
+    color: white;
+    font: 200 2em oswald;
+}
+.instagram{
+    background-color: #0097bd00;
+    border: 2px solid rgb(255, 255, 255);
+    height: 6em;
+    margin: 10px 65px 10px 65px;
+    border-radius: 30px;
+}
+.linkedin{
+    background-color: #0097bd00;
+    border: 2px solid rgb(255, 255, 255);
+    height: 6em;
+    margin: 75px 65px 10px 65px;
+    border-radius: 30px;
+}
+.twitter{
+    background-color: #0097bd00;
+    border: 2px solid rgb(255, 255, 255);
+    height: 6em;
+    margin: 75px 65px 10px 65px;
+    border-radius: 30px;
+}
+.titlecuriosidades{
+    color: aliceblue;
+    text-align: center;
+    font: 500 2em oswald;
+}
+.curiosidades{
+    display: flex;
+    justify-content: center;
+}
+.games{
+    color: aliceblue;
+    width: 20em;
+    height: 30em;
+    margin-left: 100px;     
+}
+.titlegames{
+    color: aliceblue;
+    text-align: center;
+    font: 200 2em oswald;
+}
+.listajogos{
+    color: aliceblue;
+}
+.jogos{
+    margin-left: 90px;
+}
+.textgames{
+    color: aliceblue;
+    font: 400 1em Roboto;
+}
+.coisasquegosto{
+    color: aliceblue;
+    margin-left: 199px;
+}
+.titlecoisasquegosto{
+    color: aliceblue;
+    font: 200 2em oswald;
+}
+.textcoisasquegosto{
+    font: 400 1em Roboto;
+    color: aliceblue;
+}
+.planejamentos{ 
+    color: aliceblue;
+    width: 20em;
+    height: 30em;
+    margin-left: 250px;
+}
+.titleplanejamentos{
+    color: aliceblue;
+    font: 200 2em oswald;
+    text-align: center;
+}
+.textplanejamentos{
+    text-align: justify;
+}
+@media(max-width:1142px){
+    .div1{
+        flex-direction: column;
+    }
+    .texto1{
+        
+    }
+    .div2{
+        flex-direction: column;
+    }
+}

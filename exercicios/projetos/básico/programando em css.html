@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programando em css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <h1>
+            Ensinando CSS
+        </h1>
+        <p style="text-align: center; color: gold;">
+            está é uma página dedicada a ensinar Css
+        </p>
+        <p style="text-align: center; color: gold;">
+            Caso deseje aprender HTML, basta clicar <a href="index.html" rel="prev">AQUI</a>
+            <br>
+            Caso deseje aprender JavaScript, basta clicar <a href="Aprendendo Java Script.html">AQUI</a>
+        </p>
+    <hr>
+    <h2>
+        Psicilogia das cores
+    </h2>
+    <p>
+        podemos reprsentar cores de duas formas, decimais ou palavras, usando "style", "color" e a cor que desejamos.
+        <br>
+        exemplo:
+        <p style="color: aqua;">
+            esse texto foi escrito usando: color aqua
+        </p>
+        <p style="color:#00ff00;">
+            esse texto foi feito utilizando a color #00ff00 que reprenta na tabela a cor verde
+        </p>
+        <p>
+            Para a representação hexadecimal (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F) vamos sempre usar a combinação RGB, sendo assim: #00ff00, reprersenta a cor verde pois, ele tem:
+            <br>
+            "00" de vermelho (mínimo), "ff" de verde (máximo) e "00" de azul (minímo)
+        </p>
+        <br>
+        <p>
+            Podemos também, adicionar cores a um site apenas colocando RGB
+            <br>
+            exemplo:
+        </p>
+        <p style="color: rgb(0, 0, 225);">
+            esse texto foi feito usando rgb (0, 0, 225) que representa o blue
+        </p>
+        <br>
+        <p>
+            Podemos também adicionar cores de forma HSL (hue, saturation, luminosity)
+            <br>
+            exemplo:
+        </p>
+        <p style="color: hsl(240, 100%, 50%);">
+            Aqui temos um exemplo do azul sendo escrito em hsl (240, 100%, 50%)
+        </p>
+        <br>
+        <p>
+            Além disso podemos fazer fundos ficarem mais transparentes usando a "RGBA"
+            <br>
+            exemplo:
+            <p style="background-color: #0000ff38; color: rgb(00, 00, 255);">
+                esse texto está sendo escrito com um fundo semi-transparente azul
+            </p>
+        </p>
+    </p>
+    <hr>
+    <h2>
+        Círculo cromático
+    </h2>
+    <img style="height: 200px;" src="https://www.designerd.com.br/wp-content/uploads/2021/01/circulo-cromatico-o-que-e.png" alt="">
+        <ul type="circle">
+            <li>
+                <dt>
+                    Cores análogas
+                    <dd>
+                        Paleta que não possue, um contraste muito grande
+                    </dd>
+                </dt>
+            </li>
+            <br>
+            <li>
+                <dt>
+                    Cores análogas e uma complementar
+                    <dd>
+                        paleta com 4 cores que possue um bom contraste, onde você pega as cores vizinhas da sua cor principal e logo depois traça uma linha vertical, indicando a cor oposta a sua principal
+                    </dd>
+                </dt>
+            </li>
+            <br>
+            <li>
+                <dt>
+                    Cores análogas relacionadas
+                    <dd>
+                        Paleta de cor que possue um contraste, porém não tão forte, para isso pegamos as cores vizinhas da cor principal e pulamos um depois das cores cizinhas
+                    </dd>
+                </dt>
+            </li>
+        </ul>
+        <hr>
+        <h2>
+            Colocando fundos em gradiente
+        </h2>
+        <p>
+            Para adicionarmos fundos de site gradientes, vamos em "style" "background-image" e "linear-gradient" selecionando que direção ele vai ficar.
+            <br>
+            exmeplo: clique <a href="sitecomfundogradiente.html">AQUI</a> para ir para um site com um fundo gradiente
+        </p>
+        <hr>
+        <h2>
+            Trabalhando com fontes
+        </h2>
+        <h3>
+            Estilos
+        </h3>
+        <ul type="circle">
+            <li>
+                <td>
+                    Fontes serifadas
+                    <dd style="font-family: serif;">
+                        Isso é um exemplo de fonte serifada
+                    </dd>
+                </td>
+            </li>
+            <br>
+            <li>
+                <td>
+                    Fontes não serifadas (Sans serif)
+                    <dd style="font-family: sans-serif;">
+                        Isso é um exemplo de fonte sem serifa
+                    </dd>
+                </td>
+            </li>
+            <br>
+            <li>
+                <td>
+                    Monoespaçada (Monospace)
+                    <dd style="font-family: monospace;">
+                        Isso é um exemplo de fonte monoespaçada
+                    </dd>
+                </td>
+            </li>
+        </ul>
+        <br>
+        <h3>
+            Tamanho e peso da fonte
+        </h3>
+        <p>
+            para definirmos o tamanho da fonte vamos usar "font-size"
+            <br>
+            exemplo: 
+            <p style="font-size: 2em;">
+                Ésta frase está muito grande
+            </p>
+            <br>
+            <p style="font-size: 0.8em;">
+                Ésta frase está pequena
+            </p>
+        </p>
+        <br>
+        <h3>
+            Brincando com a fonte
+        </h3>
+        <p>
+            Podemos brincar com a fonte também utilizando "font-style" e "text-decoration"
+            <br>
+            Exemplo:
+        </p>
+        <p style="font-style: italic;">
+            Ésta frase está em itálico
+        </p>
+        <p style="text-decoration: underline;">
+            Ésta frase está sublinhada
+        </p>
+        <hr>
+        <h2>
+            Pseudoclasses e pseudoelementos
+        </h2>
+        <p>
+            pseudoclasses vão indicar o estado em que algum elemento está representado, usando apenas ":"
+        </p>
+        <p>
+            exemplo:
+            <br>
+            <div id="div1">
+                passe o mouse em cima
+            </div>
+            <div id="div2">
+                passe o mouse em cima
+            </div>
+            <div id="div3">
+                passe o mouse em cima
+            </div>
+        </p>
+        <p>
+            Para fazer isso basta digitar
+            <br>
+            div:hover{
+                <br>
+                background-color: black;
+                <br>
+                color: green;
+                <br>
+            }
+        </p>
+        <p>
+            Podemos fazer isso com frases também
+            <br>
+            exemplo:
+            <div id="div4">
+                RED
+            </div>
+            <div id="div5">
+                GREEN
+            </div>
+            <div id="div6">
+                BLUE
+            </div>
+        </p>
+        <p>
+            Podemos também criar textos excondidos
+            <br>
+            exemplo:
+            <div id="div7">
+                Passe o mouse aqui para revelar o texto escondido
+                <p>
+                    TE AMOOO 😍
+                </p>
+            </div>
+            <p>
+                é isso :)
+            </p>
+        </p>
+        <p>
+            podemos personalizar se um link foi visitado ou não usando o pseudoelemento: visited. Os links que foram visitados ficaram em verde e os que não foram fisitados vão ficar em vermelho
+            <ul>
+                <li>
+                    <a class="link" target="_blank" href="https://www.twitch.tv/alanzoka">melhor canal de games do brasil</a>
+                </li>
+                <li>
+                    <a class="link" target="_blank" href="https://www.instagram.com/wellzin.bsf?igsh=M2dkMWVzanU4OWo3">melhor insta do Brasil</a>
+                </li>
+                <li>
+                    <a class="link" target="_blank" href="https://x.com/Well_bsf?t=49fQf9RdZqzTP1BgKCkTSg&s=08">melhor x do brasil </a>
+                </li>
+                <li>
+                    <a class="link" href="https://www.blaze.com">casa de apostas</a>
+                </li>
+            </ul>
+        </p>
+        <p>Podemos também adicionar coisas ao text html usando css, com o pseudoelemento :after e :before</p>
+        <p>exemplo: <span class="textodeexemplo">CLIQUE AQUI</span></p>
+        <hr>
+        <h2>configuração de caixas</h2>
+        <p>para configurarmos uma box podemos utilizar diversas características</p>
+        <p>exemplo:</p>
+        <span class="box">Esse texto etsá sendo modificado</span>
+        <div class="div">
+            <p class="fdiv">Olá, Mundo!</p>
+        </div>
+    </body>
+</html>        
