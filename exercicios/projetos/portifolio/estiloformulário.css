@@ -1,0 +1,13 @@
+.titulo{
+    color: white;
+    margin: 24px 14px 1px 34px;
+    font: normal 200 2em arial;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+#botao1{
+    width: 5%;
+    margin: 4px 5px 5px 16px;
+}

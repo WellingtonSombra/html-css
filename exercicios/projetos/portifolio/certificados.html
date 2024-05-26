@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estiloformulário.css">
+    <style>
+        .certificados{
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+        }
+    </style>
+    <script src="scriptformulario.js"></script>
 </head>
 <body>
     <div class="menu">
@@ -27,7 +36,7 @@
             </div>
             <div class="element">
                 <a href="certificados.html">
-                    <p class="certificados">CERTIFICADOS</p>
+                    <p class="certificados">SOBRE VOCÊ</p>
                 </a>
             </div>
             <div class="element">
@@ -37,5 +46,35 @@
             </div>
         </div>
     </div>
+    <h2 class="titulo">
+        Coloque suas informações
+    </h2>
+        <form autocomplete="off" class="form">
+            <p>
+                <label for="inome" style="color: aliceblue;" class="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required size="15">
+            </p>
+            <p>
+                <label for="idatanasc" style="color: aliceblue;" class="idatanasc">Data de nascimento:</label>
+                <input type="date" name="datadenascimento" id="idatanasc" required size="15" value="2024-05-25">
+            </p>
+            <p>
+                <label for="isexo" style="color: aliceblue;" class="isexo">Sexo:</label>
+                <input type="text" name="sexo" id="isexo" size="15">
+            </p>
+            <p>
+                <label for="inumero" style="color: aliceblue;" class="inumero">Numero de Telefone:</label>
+                <input type="tel" name="numero" id="inumero" required>
+            </p>
+            <p>
+                <label for="iemail" style="color: aliceblue;" class="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required size="15">
+            </p>
+            <p>
+                <label for="imensagem" style="color: aliceblue;" class="imensagem">mensagem</label>
+                <input type="text" name="Mensagem" id="imensagem" size="15">
+            </p>
+            <button id="botao1" onclick="funcao1()"><p id="botao2" onclick="funcao2()">ENVIAR</p></button>
+        </form>
 </body>
 </html>
