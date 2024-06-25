@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html{
+    margin: 0px;
+    background-color: black;
+    min-height: 100vh;
+}
+*{
+    margin: 0px;
+}
+.link{
+    color: rgba(255, 44, 44, 0.788);
+    text-decoration: none;
+    font-variant: small-caps;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.header{
+    background: black url('https://funfactor.pt/wp-content/uploads/2018/12/47355493_762474447425539_3542355370653515776_n1.jpg?w=1920&h=768&crop=1') center top no-repeat scroll;
+    background-size: cover;
+    margin: 0px;    
+    box-shadow: inset 19px -300px 14px -5px rgba(0, 0, 0, 0.548);
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font: 100 3em 'Playfair Display';
+    font-variant: small-caps;
+}
+.titulo2{
+    color: white;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font: 300 1.7em 'Montserrat';
+    font-variant: small-caps;
+}
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: normal 300 2em Montserrat;
+}
+.texto1{
+    background: rgba(34, 34, 34, 0.342) center center no-repeat fixed;
+    width: 50%;
+    padding: 26px;
+    box-shadow: inset 0px 0px 22px 19px black;
+    margin: auto;
+}
+p{
+    color: white;
+    font: 100 1.5vw verdana;
+}
+.background1{
+    background: black url('https://images3.alphacoders.com/135/1356811.jpeg') center center no-repeat fixed;    
+    background-size: cover;
+    height: 32em;
+    box-shadow: inset 0px 0px 87px 80px black;
+}
+.background2{
+    background: black url('https://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572.jpg') center top no-repeat fixed;
+    background-size: cover;
+    height: 32em;
+    box-shadow: inset 0px 0px 87px 80px black;
+}
+.background3{
+    background: black url('https://cdnb.artstation.com/p/assets/images/images/067/714/295/large/gavin-hopper-the-hollow-knight-fight-unrefit.jpg?1696029479') center center no-repeat fixed;
+    background-size: cover;
+    height: 32em;
+    box-shadow: inset 0px 0px 87px 80px black;
+}
+.linha{
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+}
+.textfooter{
+    padding-top: 49px;
+    padding-bottom: 30px;
+}
+.logoinstagram{
+    background-color: white;
+    border-radius: 20px;
+    height: 39px;
+    margin-bottom: 10px;
+}
+.logolinkedin{
+    background-color: white;
+    border-radius: 20px;
+    height: 39px;
+    margin-bottom: 10px;
+}
