@@ -1,0 +1,43 @@
+body{
+    font-family: arial;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    position: relative;
+}
+caption{
+    font: 200 1.5em verdana;
+    padding: 20px;
+    background-color: lightgray;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: darkgray;
+}
+thead{
+    position: sticky;
+    top: -1px;
+    background-color: black;
+}
+.num{
+    text-align: end;
+}
+img{
+    height: 10px;
+}
+th{
+    background-color: darkgray;
+    padding: 10px;
+    border: 1px solid black;
+}
+tfoot{
+    background-color: darkgray;
+    color: black;
+    font: 900 1em verdana;
+    text-align: center;
+}
