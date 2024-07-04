@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+.cnome{
+    background-color: green;
+}
+caption{
+    font-weight: 200;
+    font-size: 1.4em;
+    padding: 10px;
+}
+th{
+    border: 1px solid black;
+    padding: 8px;
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+}

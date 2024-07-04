@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    text-align: center;
+}
+#mediasexatas{
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
+    height: 300px;
+}
+th{
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(78, 78, 78);
+}
+td{
+    border: 1px solid black;
+}
+.num{
+    text-align: center;
+}
