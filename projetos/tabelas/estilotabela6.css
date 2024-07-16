@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+caption{
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 20px;
+}
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    padding: 20px;
+}
+tr:nth-child(even){
+    background-color: white;
+}
