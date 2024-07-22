@@ -43,10 +43,14 @@
         margin: 10px;
         border-radius: 50%;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+        box-sizing: border-box;
     }
     #redessociais{
         text-align: right;
     }
     #redessociais img:hover{
-        border: 2px solid white;
+        border: 2px solid hsla(0, 0%, 100%, 0.6);
+        transform: translate(-3px, -5px);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644);
+        transition: transform 0.2s, border 0.5s;
     }
