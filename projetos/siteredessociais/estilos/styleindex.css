@@ -14,7 +14,7 @@
         height: 100vh;
         width: 100vw;
         background-color: black;
-        background: url(../imagens/fundo-madeira.jpg) no-repeat top center fixed;
+        background: url(../pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center fixed;
         background-size: cover;
     }
     main{
@@ -28,7 +28,7 @@
         transform: translate(-50%, -50%);
         height: 627px;
         width: 311px;
-        background: url('../imagens/frame-iphone.png') no-repeat;
+        background: url(../pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
         background-size: cover;
     }
     #tela{
