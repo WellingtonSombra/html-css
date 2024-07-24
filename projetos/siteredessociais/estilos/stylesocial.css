@@ -1,0 +1,27 @@
+a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 247px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+img{
+    margin: 0px;
+    width: 100vw;
+}
+body{
+    margin: 0px;
+}
+a:hover{
+    background-color: green;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
