@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
-/* Retrato Em Pé
+/* Retrato Em Pé*/
+
+body{
+    background: black url(https://i.pinimg.com/originals/08/94/ea/0894eaf3a0bbb38c3c5536f0e1a7dd96.jpg) center center fixed;
+}
