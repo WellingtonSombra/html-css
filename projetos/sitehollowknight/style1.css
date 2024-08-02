@@ -57,7 +57,7 @@ body, html{
 }
 p{
     color: white;
-    font: 200 1.9vw Montserrat; 
+    font: 200 20px Montserrat; 
 }
 .background1{
     background: black url('https://images3.alphacoders.com/135/1356811.jpeg') center center no-repeat fixed;    
@@ -98,4 +98,10 @@ footer{
     border-radius: 20px;
     height: 39px;
     margin-bottom: 10px;
+}
+@media screen and (orientation: portrait) {
+    p{
+        color: white;
+        font: 200 20px Montserrat; 
+    }
 }
