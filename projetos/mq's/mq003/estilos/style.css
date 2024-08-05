@@ -29,7 +29,7 @@ body{
 /*Declarações Paisagem*/
 @media screen and (orientation: landscape) {
 body{
-    background: black url(https://e0.pxfuel.com/wallpapers/747/608/desktop-wallpaper-space-ocean-man-hq-background-gallery-computador-papel-de-parede-computador-papel-de-parede-minimalista-ocean-planet.jpg) center center fixed;
+    background: black url('https://e0.pxfuel.com/wallpapers/747/608/desktop-wallpaper-space-ocean-man-hq-background-gallery-computador-papel-de-parede-computador-papel-de-parede-minimalista-ocean-planet.jpg') center center fixed;
     background-size: cover
 }
 }

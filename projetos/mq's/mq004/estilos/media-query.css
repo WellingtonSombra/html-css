@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Todas as demais Medias*/
+@media print{ /*IMPRESSÃO*/
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+        text-shadow: none;
+        color: black;
+    }
+    main{
+        border: 2px solid black;
+        width: 90vw;
+    }
+    main::after{
+        content: 'Essa Impressão foi feita Atráves dos meus conhecimentos';
+        text-decoration: overline;
+    }
+    #phone {
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #print{
+        display: block;
+    }
+    #pc{
+        display: none;
+    }
+    #tv{
+        display: none;  
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* Tablet*/
+    body{
+        background-image: url('https://www.iclarified.com/images/news/93538/447432/447432.jpg');
+    }
+    
+    #phone {
+        display: none;
+    }
+    #tablet{
+        display: inline;
+    }
+    #print{
+        display: none;
+    }
+    #pc{
+        display: none;
+    }
+    #tv{
+        display: none;  
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /* DESKTOP*/
+    body{
+        background-image: url('https://i.pinimg.com/originals/a3/15/80/a3158011a18e623c4d25b68846ee9383.jpg');
+    }
+    #phone {
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #print{
+        display: none;
+    }
+    #pc{
+        display: block;
+    }
+    #tv{
+        display: none;  
+    }
+}
+
+@media screen and (min-width: 1200px){ /*Grandes Telas*/
+    body{
+        background-image: url('https://wallpapers.com/images/hd/aesthetic-planets-and-space-computer-display-nc09lgxj097p6fv4.jpg');
+    }
+    #phone {
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #print{
+        display: none;
+    }
+    #pc{
+        display: none;
+    }
+    #tv{
+        display: block;  
+    }
+}
