@@ -6,9 +6,9 @@ function clickmenu(){
     }
 }
 function mudoutamanho(){
-    if(window.innerwidth >= 768){
+    if(window.innerWidth >= 768){
         menu.style.display = 'block'
     }else[
-        menu.style.display == 'none'
+        menu.style.display = 'none'
     ]
 }
