@@ -18,7 +18,7 @@ header{
     background-color:gray;
 }
 header > h1{
-    padding: 10px;
+    padding: 5px;
     text-align:center;
     font-family: var(--fonte-padrao);
 }
@@ -35,7 +35,7 @@ header > h1{
     color: black;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu > ul{
     list-style-type:none;
