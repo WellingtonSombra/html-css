@@ -5,3 +5,10 @@ function clickmenu(){
         menu.style.display = 'block'
     }
 }
+function mudoutamanho(){
+    if(window.innerwidth >= 768){
+        menu.style.display = 'block'
+    }else[
+        menu.style.display == 'none'
+    ]
+}
