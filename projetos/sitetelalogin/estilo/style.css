@@ -23,5 +23,31 @@ body{
     text-align: center;
 }
 p{
-    font-size: 2em;
+    font-size: 1.6em;
+    font-family: var(--fonte-padrao);
+}
+#iemail{
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 43vw;
+    height: 4vh;
+}
+#isenha{
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 43vw;
+    height: 4vh;
+}
+#ientrar{
+    display: block;
+    margin: auto;
+    width: 47vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    font-size: 17px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
 }
