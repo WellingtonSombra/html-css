@@ -7,6 +7,9 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+#rena{
+    display: none;
+}
 body{
     background: rgb(0, 0, 110) url('https://e0.pxfuel.com/wallpapers/465/213/desktop-wallpaper-simple-mobile-flat-android.jpg') center center no-repeat fixed;
     background-size: cover;
@@ -26,7 +29,7 @@ body{
     box-shadow: -1px -1px 78px -5px white;
 }
 p{
-    font-size: 1.6em;
+    font-size: 2em;
     font-family: var(--fonte-padrao);
 }
 #user{
@@ -80,4 +83,124 @@ p{
     font-weight: bolder;
     font-size: 17px;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
+}
+
+
+@media screen and (min-width: 647px){
+    #rena{
+        display: block;
+        width: 40em;
+        height: 29em;
+        position: absolute;
+        left: 11em;
+        top: 155px;
+        border-radius: 20px;
+    }
+    body{
+        background: rgb(0, 0, 110) url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center center no-repeat fixed;
+        background-size: cover;
+        padding: 0px;
+        margin: 0px;
+    }
+    #container{
+        background-color: rgba(255, 255, 255, 0.788);
+        width: 60vw;
+        height: 60vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 40px;
+        text-align: center;
+        box-shadow: -1px -1px 78px -5px white;
+    }
+}
+
+
+@media screen and (min-width: 1580px) {
+    #rena{
+        display: block;
+        width: 40em;
+        height: 29em;
+        position: absolute;
+        left: 11em;
+        top: 155px;
+        border-radius: 20px;
+    }
+    p{
+        font-size: 2em;
+        font-family: var(--fonte-padrao);
+        position: absolute;
+        left: 532px;
+    }
+    body{
+        background: rgb(0, 0, 110) url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center center no-repeat fixed;
+        background-size: cover;
+        padding: 0px;
+        margin: 0px;
+    }
+    #container{
+        background-color: rgba(255, 255, 255, 0.788);
+        width: 60vw;
+        height: 60vh;
+        position: absolute;
+        top: 50%;
+        left: 59%;
+        transform: translate(-50%, -50%);
+        border-radius: 40px;
+        text-align: center;
+        box-shadow: -1px -1px 78px -5px white;
+    }
+    #user{
+        width: 24px;
+        position: absolute;
+        left: 485px;
+        top: 128px;
+    }
+    #iemail{
+        position: absolute;
+        left: 520px;
+        top: 125px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        width: 20vw;
+        height: 4vh;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+    #password{
+        width: 25px;
+        position: absolute;
+        left: 485px;
+        top: 216px;
+    }
+    #isenha{
+        position: absolute;
+        left: 520px;
+        top: 214px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        width: 20vw;
+        height: 4vh;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+    #ientrar{
+        display: block;
+        position: absolute;
+        left: 430px;
+        top: 330px;
+        margin: auto;
+        width: 28vw;
+        height: 5vh;
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        font-family: var(--fonte-destaque);
+        font-weight: bolder;
+        font-size: 17px;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
+}
 }
