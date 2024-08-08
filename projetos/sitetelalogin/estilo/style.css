@@ -29,6 +29,11 @@ p{
     font-size: 1.6em;
     font-family: var(--fonte-padrao);
 }
+#user{
+    width: 28px;
+    position: absolute;
+    left: 10px;
+}
 #iemail{
     margin-bottom: 50px;
     border-radius: 10px;
