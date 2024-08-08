@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Tibetan:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+:root{
+    --fonte-padrao: Noto Serif Tibetan;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
-    background-color: rgb(0, 0, 110);
+    background: rgb(0, 0, 110) url('https://e0.pxfuel.com/wallpapers/465/213/desktop-wallpaper-simple-mobile-flat-android.jpg') center center no-repeat fixed;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    background-color: rgba(255, 255, 255, 0.39);
+    width: 60vw;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    text-align: center;
+}
+p{
+    font-size: 2em;
 }
