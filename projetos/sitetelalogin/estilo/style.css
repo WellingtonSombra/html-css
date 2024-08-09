@@ -87,25 +87,20 @@ body{
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
 }
 @media screen and (min-width: 647px) and (max-width: 1579px){
-    #rena{
-        display: none;
-        width: 40em;
-        height: 29em;
-        position: absolute;
-        left: 11em;
-        top: 155px;
-        border-radius: 20px;
-    }
     body{
         background: rgb(0, 0, 110) url('https://images.pexels.com/photos/1571442/pexels-photo-1571442.jpeg') center center no-repeat fixed;
         background-size: cover;
         padding: 0px;
         margin: 0px;
     }
+    #rena{
+        display: none;
+    }
+    
     #container{
-        background-color: rgba(255, 255, 255, 0.788);
-        max-width: 33em;
-        height: 60vh;
+        background-color: rgba(255, 255, 255, 0.61);
+        max-width: 40vw;
+        height: 26em;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -114,37 +109,38 @@ body{
         text-align: center;
         box-shadow: -1px -1px 78px -5px white;
     }
+    
     #user{
-        width: 24px;
+        width: 28px;
         position: absolute;
-        left: 105px;
+        left: 6em;
         top: 128px;
     }
     #iemail{
         position: absolute;
-        left: 145px;
+        left: 12em;
         top: 125px;
         margin-bottom: 50px;
         border-radius: 10px;
-        max-width: 20em;
+        width: 20vw;
         height: 4vh;
         box-shadow: 0 0 0 0;
         border: 0 none;
         outline: 0;
     }
     #password{
-        width: 30px;
+        width: 32px;
         position: absolute;
-        left: 103px;
+        left: 6em;
         top: 216px;
     }
     #isenha{
         position: absolute;
-        left: 145px;
+        left: 12em;
         top: 214px;
         margin-bottom: 50px;
         border-radius: 10px;
-        max-width: 20em;
+        width: 20vw;
         height: 4vh;
         box-shadow: 0 0 0 0;
         border: 0 none;
@@ -153,10 +149,10 @@ body{
     #ientrar{
         display: block;
         position: absolute;
-        left: 154px;
-        top: 325px;
+        left: 8em;
+        top: 292px;
         margin: auto;
-        max-width: 13em;
+        width: 20vw;
         height: 5vh;
         border-radius: 10px;
         background-color: blue;
