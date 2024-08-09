@@ -7,8 +7,9 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-#rena{
-    display: none;
+p{
+    font-size: 2em;
+    font-family: var(--fonte-padrao);
 }
 body{
     background: rgb(0, 0, 110) url('https://e0.pxfuel.com/wallpapers/465/213/desktop-wallpaper-simple-mobile-flat-android.jpg') center center no-repeat fixed;
@@ -16,6 +17,10 @@ body{
     padding: 0px;
     margin: 0px;
 }
+#rena{
+    display: none;
+}
+
 #container{
     background-color: rgba(255, 255, 255, 0.5);
     width: 60vw;
@@ -28,10 +33,7 @@ body{
     text-align: center;
     box-shadow: -1px -1px 78px -5px white;
 }
-p{
-    font-size: 2em;
-    font-family: var(--fonte-padrao);
-}
+
 #user{
     width: 28px;
     position: absolute;
@@ -84,9 +86,7 @@ p{
     font-size: 17px;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
 }
-
-
-@media screen and (min-width: 647px){
+@media screen and (min-width: 647px) and (max-width: 1579px){
     #rena{
         display: none;
         width: 40em;
@@ -97,15 +97,15 @@ p{
         border-radius: 20px;
     }
     body{
-        background: rgb(0, 0, 110) url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center center no-repeat fixed;
+        background: rgb(0, 0, 110) url('https://images.pexels.com/photos/1571442/pexels-photo-1571442.jpeg') center center no-repeat fixed;
         background-size: cover;
         padding: 0px;
         margin: 0px;
     }
     #container{
         background-color: rgba(255, 255, 255, 0.788);
-        width: 50vw;
-        height: 50vh;
+        max-width: 33em;
+        height: 60vh;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -115,36 +115,36 @@ p{
         box-shadow: -1px -1px 78px -5px white;
     }
     #user{
-        width: 26px;
+        width: 24px;
         position: absolute;
         left: 48px;
         top: 128px;
     }
     #iemail{
         position: absolute;
-        left: 95px;
+        left: 79px;
         top: 125px;
         margin-bottom: 50px;
         border-radius: 10px;
-        width: 33vw;
+        max-width: 20em;
         height: 4vh;
         box-shadow: 0 0 0 0;
         border: 0 none;
         outline: 0;
     }
     #password{
-        width: 32px;
+        width: 30px;
         position: absolute;
-        left: 48px;
+        left: 46px;
         top: 216px;
     }
     #isenha{
         position: absolute;
-        left: 95px;
+        left: 79px;
         top: 214px;
         margin-bottom: 50px;
         border-radius: 10px;
-        width: 33vw;
+        max-width: 20em;
         height: 4vh;
         box-shadow: 0 0 0 0;
         border: 0 none;
@@ -153,9 +153,10 @@ p{
     #ientrar{
         display: block;
         position: absolute;
-        left: 130px;
+        left: 95px;
         top: 292px;
-        width: 20vw;
+        margin: auto;
+        max-width: 13em;
         height: 5vh;
         border-radius: 10px;
         background-color: blue;
@@ -168,7 +169,51 @@ p{
 }
 
 
-@media screen and (min-width: 1530px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1580px) {
     #rena{
         display: block;
         width: 40em;
