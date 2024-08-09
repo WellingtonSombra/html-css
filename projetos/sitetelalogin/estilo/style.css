@@ -88,7 +88,7 @@ p{
 
 @media screen and (min-width: 647px){
     #rena{
-        display: block;
+        display: none;
         width: 40em;
         height: 29em;
         position: absolute;
@@ -104,8 +104,8 @@ p{
     }
     #container{
         background-color: rgba(255, 255, 255, 0.788);
-        width: 60vw;
-        height: 60vh;
+        width: 50vw;
+        height: 50vh;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -114,10 +114,61 @@ p{
         text-align: center;
         box-shadow: -1px -1px 78px -5px white;
     }
+    #user{
+        width: 26px;
+        position: absolute;
+        left: 48px;
+        top: 128px;
+    }
+    #iemail{
+        position: absolute;
+        left: 95px;
+        top: 125px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        width: 33vw;
+        height: 4vh;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+    #password{
+        width: 32px;
+        position: absolute;
+        left: 48px;
+        top: 216px;
+    }
+    #isenha{
+        position: absolute;
+        left: 95px;
+        top: 214px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        width: 33vw;
+        height: 4vh;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+    #ientrar{
+        display: block;
+        position: absolute;
+        left: 130px;
+        top: 292px;
+        width: 20vw;
+        height: 5vh;
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        font-family: var(--fonte-destaque);
+        font-weight: bolder;
+        font-size: 17px;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
+    }
 }
 
 
-@media screen and (min-width: 1580px) {
+@media screen and (min-width: 1530px) {
     #rena{
         display: block;
         width: 40em;
