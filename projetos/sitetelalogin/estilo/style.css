@@ -113,12 +113,12 @@ body{
     #user{
         width: 28px;
         position: absolute;
-        left: 2em;
+        left: 5vw;
         top: 128px;
     }
     #iemail{
         position: absolute;
-        left: 6em;
+        left: 9vw;
         top: 125px;
         margin-bottom: 50px;
         border-radius: 10px;
@@ -131,12 +131,12 @@ body{
     #password{
         width: 32px;
         position: absolute;
-        left: 2em;
+        left: 5vw;
         top: 216px;
     }
     #isenha{
         position: absolute;
-        left: 6em;
+        left: 9vw;
         top: 214px;
         margin-bottom: 50px;
         border-radius: 10px;
@@ -149,7 +149,7 @@ body{
     #ientrar{
         display: block;
         position: absolute;
-        left: 5.6em;
+        left: 7vw;
         top: 292px;
         margin: auto;
         width: 20vw;
