@@ -23,7 +23,7 @@ body{
 
 #container{
     background-color: rgba(255, 255, 255, 0.5);
-    width: 60vw;
+    width: 64vw;
     height: 400px;
     position: absolute;
     top: 50%;
@@ -37,12 +37,12 @@ body{
 #user{
     width: 21px;
     position: absolute;
-    left: 17px;
+    left: 4vw;
     top: 128px;
 }
 #iemail{
     position: absolute;
-    left: 48px;
+    left: 12vw;
     top: 125px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -55,12 +55,12 @@ body{
 #password{
     width: 21px;
     position: absolute;
-    left: 17px;
+    left: 4vw;
     top: 216px;
 }
 #isenha{
     position: absolute;
-    left: 48px;
+    left: 12vw;
     top: 214px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -114,12 +114,12 @@ body{
         width: 22px;
         position: absolute;
         left: 6vw;
-        top: 127px;
+        top: 130px;
     }
     #iemail{
         position: absolute;
         left: 9vw;
-        top: 125px;
+        top: 130px;
         margin-bottom: 50px;
         border-radius: 10px;
         width: 20vw;
@@ -132,12 +132,12 @@ body{
         width: 22px;
         position: absolute;
         left: 6vw;
-        top: 217px;
+        top: 220px;
     }
     #isenha{
         position: absolute;
         left: 9vw;
-        top: 214px;
+        top: 220px;
         margin-bottom: 50px;
         border-radius: 10px;
         width: 20vw;
