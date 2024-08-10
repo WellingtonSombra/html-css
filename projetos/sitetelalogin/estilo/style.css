@@ -37,12 +37,12 @@ body{
 #user{
     width: 21px;
     position: absolute;
-    left: 20px;
+    left: 17px;
     top: 128px;
 }
 #iemail{
     position: absolute;
-    left: 52px;
+    left: 48px;
     top: 125px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -55,12 +55,12 @@ body{
 #password{
     width: 21px;
     position: absolute;
-    left: 20px;
+    left: 17px;
     top: 216px;
 }
 #isenha{
     position: absolute;
-    left: 52px;
+    left: 48px;
     top: 214px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -73,7 +73,7 @@ body{
 #ientrar{
     display: block;
     position: absolute;
-    left: 34px;
+    left: 7vw;
     top: 292px;
     margin: auto;
     width: 47vw;
