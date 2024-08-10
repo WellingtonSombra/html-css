@@ -24,7 +24,7 @@ body{
 #container{
     background-color: rgba(255, 255, 255, 0.5);
     width: 60vw;
-    height: 60vh;
+    height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -83,7 +83,7 @@ body{
     color: white;
     font-family: var(--fonte-destaque);
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 14px;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
 }
 @media screen and (min-width: 647px) and (max-width: 1579px){
@@ -100,7 +100,7 @@ body{
     #container{
         background-color: rgba(255, 255, 255, 0.61);
         max-width: 34vw;
-        height: 26em;
+        height: 380px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -111,10 +111,10 @@ body{
     }
     
     #user{
-        width: 28px;
+        width: 22px;
         position: absolute;
-        left: 5vw;
-        top: 128px;
+        left: 6vw;
+        top: 127px;
     }
     #iemail{
         position: absolute;
@@ -129,10 +129,10 @@ body{
         outline: 0;
     }
     #password{
-        width: 32px;
+        width: 22px;
         position: absolute;
-        left: 5vw;
-        top: 216px;
+        left: 6vw;
+        top: 217px;
     }
     #isenha{
         position: absolute;
@@ -159,7 +159,7 @@ body{
         color: white;
         font-family: var(--fonte-destaque);
         font-weight: bolder;
-        font-size: 17px;
+        font-size: 14px;
         text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
     }
 }
