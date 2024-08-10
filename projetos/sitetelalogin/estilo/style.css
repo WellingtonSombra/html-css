@@ -35,9 +35,9 @@ body{
 }
 
 #user{
-    width: 28px;
+    width: 21px;
     position: absolute;
-    left: 15px;
+    left: 20px;
     top: 128px;
 }
 #iemail{
@@ -46,16 +46,16 @@ body{
     top: 125px;
     margin-bottom: 50px;
     border-radius: 10px;
-    width: 43vw;
+    width: 40vw;
     height: 4vh;
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
 }
 #password{
-    width: 32px;
+    width: 21px;
     position: absolute;
-    left: 14px;
+    left: 20px;
     top: 216px;
 }
 #isenha{
@@ -64,7 +64,7 @@ body{
     top: 214px;
     margin-bottom: 50px;
     border-radius: 10px;
-    width: 43vw;
+    width: 40vw;
     height: 4vh;
     box-shadow: 0 0 0 0;
     border: 0 none;
