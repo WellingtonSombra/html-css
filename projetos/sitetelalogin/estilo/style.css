@@ -79,12 +79,15 @@ body{
     width: 47vw;
     height: 25px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: rgb(82, 82, 255);
     color: white;
     font-family: var(--fonte-destaque);
     font-weight: bolder;
     font-size: 14px;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
+}
+#ientrar:hover{
+    background-color: blue;
 }
 #esqueciminhasenha{
     position: absolute;
@@ -171,12 +174,15 @@ body{
         width: 20vw;
         height: 25px;
         border-radius: 10px;
-        background-color: blue;
+        background-color: rgb(82, 82, 255);
         color: white;
         font-family: var(--fonte-destaque);
         font-weight: bolder;
         font-size: 14px;
         text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
+    }
+    #ientrar:hover{
+        background-color: blue;
     }
 }
 @media screen and (min-width: 1580px) {
@@ -265,11 +271,14 @@ body{
         width: 28vw;
         height: 5vh;
         border-radius: 10px;
-        background-color: blue;
+        background-color: rgb(82, 82, 255);
         color: white;
         font-family: var(--fonte-destaque);
         font-weight: bolder;
         font-size: 17px;
         text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.363);
-}
+    }
+    #ientrar:hover{
+        background-color: blue;
+    }
 }
